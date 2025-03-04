@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="rz_mniQN1d16mimgcxu4">
+    <mxGraphModel dx="1617" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-260" y="380" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-2" value="CajeroAutomatico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-5">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RsJf5w4AtSt-X5yxVqRg-5" source="RsJf5w4AtSt-X5yxVqRg-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-3" value="- maxRetiroDiario: double" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-5">
+          <mxGeometry y="30" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-4" value="+ retirarDinero(t: Tarjeta, monto: double): void&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+depositarDinero(: Tarjeta, monto:double): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ consultarSaldo(t: Tarjeta): double&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-5">
+          <mxGeometry y="90" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-6" value="Cuenta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-7" value="-numeroCuenta: String&lt;div&gt;- saldo: double&lt;/div&gt;&lt;div&gt;- titular: cliente&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RsJf5w4AtSt-X5yxVqRg-8" target="RsJf5w4AtSt-X5yxVqRg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-8" value="+depositar(monto: double):void&lt;div&gt;+ retirar(monto: double): void&lt;/div&gt;&lt;div&gt;+ consultarSaldo(): double&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="480" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-413" y="640" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-9" value="Tarjeta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-13">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-11" value="- numeroTarjeta: String&lt;div&gt;- pin: int&lt;/div&gt;&lt;div&gt;- intentos: int = 3&lt;/div&gt;&lt;div&gt;- cuenta: Cuenta&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-13">
+          <mxGeometry y="30" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-12" value="+ validarPin(pinIngresado: int): boolean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-13">
+          <mxGeometry y="110" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RsJf5w4AtSt-X5yxVqRg-17" target="RsJf5w4AtSt-X5yxVqRg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-750" y="400" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-17" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-21">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RsJf5w4AtSt-X5yxVqRg-18" value="&amp;nbsp;-nombre: String&lt;div&gt;- dni: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RsJf5w4AtSt-X5yxVqRg-21">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
